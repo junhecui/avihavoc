@@ -12,31 +12,6 @@ info needed:
 '''
 flights = fr_api.get_flights()  # Returns a list of Flight objects
 
-# flight = fr_api.get_flight("N421UW")
-# print(flight)
-# airport = "KJFK"
-# distance = flight.get_distance_from(airport, details=True)
-# print(distance)
-
-# for flight in flights:
-#     flight_details = fr_api.get_flight_details(flight)
-#     flight.set_flight_details(flight_details)
-
-#     print("Flying to", flight.destination_airport_name)
-
-
-# getting lat and long
-# for flight in flights:
-#     latitude = flight.latitude
-#     longitude = flight.longitude
-#     print("Latitude: ", latitude, " Longitude: ", longitude)
-
-
-# # getting airlines
-# for flight in flights:
-#     airline = flight.destination_airport_iata
-#     print(airline)
-
 #carbon calc
 def carbon_calc(csv_file_path, substring, speed):
     with open(csv_file_path, 'r') as file:
@@ -58,13 +33,16 @@ def carbon_calc(csv_file_path, substring, speed):
 for flight in flights:
     flight_details = fr_api.get_flight_details(flight)
     flight.set_flight_details(flight_details)
+    id = flight.aircraft_code
     latitude = flight.latitude
     longitude = flight.longitude
-    airline = flight.airline_iata
+    airline = flight.airline_name
     airport = flight.destination_airport_iata
     model = flight.aircraft_model
     speed = flight.ground_speed
     carbon_emissions = carbon_calc('Flights-Full.csv', model, speed)
     # carbon_emissions is kg of carbon per second - should be incremented by variable every second and variable should be updated as much as rate allows - based on speed
     if not (airline == "" or airport == "" or carbon_emissions == 0):
-        print("Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Carbon: ", carbon_emissions)
+        print("Flight ID: ", id, " Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Carbon: ", carbon_emissions, speed)
+
+# final idea: click flight on globe and get popup with info from it?
