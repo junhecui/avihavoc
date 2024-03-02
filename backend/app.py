@@ -1,5 +1,6 @@
 from flightradar24 import FlightRadar24API
-from retry import retry
+import pandas as pd
+import csv
 
 fr_api = FlightRadar24API()
 
@@ -36,6 +37,23 @@ flights = fr_api.get_flights()  # Returns a list of Flight objects
 #     airline = flight.destination_airport_iata
 #     print(airline)
 
+#carbon calc
+def carbon_calc(csv_file_path, substring):
+    with open(csv_file_path, 'r') as file:
+        reader = csv.reader(file)
+        
+        # Assuming the first row contains headers, adjust accordingly
+        headers = next(reader)
+
+        for row in reader:
+            model_name = row[0]
+            value = row[3]  # Assuming the 4th column contains the desired value
+
+            if model_name in substring:
+                return value
+            
+    return 0
+
 # all
 for flight in flights:
     flight_details = fr_api.get_flight_details(flight)
@@ -45,4 +63,6 @@ for flight in flights:
     airline = flight.airline_iata
     airport = flight.destination_airport_iata
     model = flight.aircraft_model
-    print("Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Model: ", model)
+    carbon = carbon_calc('Flights-Full.csv', model)
+    if not (airline == "" or airport == "" or carbon == 0):
+        print("Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Carbon: ", carbon)
