@@ -1,0 +1,26 @@
+
+.landing {
+    width: 100vw;
+    height: calc(100vh - 100px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigheader {
+    color: black;
+
+    font-size: 86px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.littlecaption {
+    color: gray;
+
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
