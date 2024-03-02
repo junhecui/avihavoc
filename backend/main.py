@@ -1,4 +1,4 @@
-from flask import Flask, render_tempalte
+from flask import Flask, render_template
 from flightradar24 import FlightRadar24API
 
 app = Flask(__name__)
@@ -11,9 +11,8 @@ def display():
     print('hello world')
     pass
     #return render_template('nameof.html')
-    
 
 if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8000,debug=True)
 
-    app.run(host='0.0.0.0', port=5000,debug=True)
 
