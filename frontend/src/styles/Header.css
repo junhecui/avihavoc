@@ -1,0 +1,36 @@
+.header {
+  position: absolute;
+  width: calc(100vw - 400px);
+  height: 100px;
+
+  padding: 0 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--line);
+}
+
+.header-logo {
+  font-size: 30px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.header-logo > span {
+  color: var(--red);
+}
+
+.header-navigator {
+  height: 60px;
+
+  display: flex;
+  gap: 10px;
+}

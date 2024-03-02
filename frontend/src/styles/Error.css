@@ -1,0 +1,29 @@
+.error {
+  width: 100vw;
+  height: calc(100vh - 100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-container {
+  position: absolute;
+}
+
+.error-bigheader {
+  color: red;
+
+  font-size: 86px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.error-littlecaption {
+  color: gray;
+
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}

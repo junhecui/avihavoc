@@ -1,0 +1,26 @@
+.leaderboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 30px 30px;
+
+  width: calc(464px);
+  height: calc(100vh - 161px);
+
+  border-left: 1px solid var(--line);
+  background-color: var(--white);
+}
+
+.leaderboard-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.leaderboard-description {
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+  color: var(--gray);
+  white-space: pre-wrap;
+}

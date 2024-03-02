@@ -1,0 +1,33 @@
+.landing {
+  width: 100vw;
+  height: calc(100vh - 100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-container {
+  position: absolute;
+}
+
+.landing-bigheader {
+  color: black;
+
+  font-size: 86px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.landing-littlecaption {
+  color: gray;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.landing-globe {
+  position: relative;
+  z-index: -1;
+  top: 500px;
+}
