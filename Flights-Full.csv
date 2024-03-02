@@ -1,0 +1,157 @@
+model,first flight,seats,fuel burn (kg/km),type
+Antonov An-148,2004,89,4.23,commuter
+Antonov An-158,2010,99,4.34,commuter
+ATR 42-500,1995,48,1.26,commuter
+ATR 72-500,1997,72,1.67,commuter
+ATR 72-500,1997,70,1.42,commuter
+ATR 72-600,2010,72,1.56,commuter
+Beechcraft 1900D,1982,19,1,commuter
+Bombardier CRJ100,1991,50,2.21,commuter
+Bombardier CRJ200,1995,50,2.18,commuter
+Bombardier CRJ900,2001,88,3.47,commuter
+Bombardier Dash 8,1998,78,2.16,commuter
+Dornier 228,1981,19,0.94,commuter
+Dornier 328 ,1991,32,1.22,commuter
+Embraer Brasilia,1983,30,0.92,commuter
+Embraer ERJ-135ER,1998,37,1.64,commuter
+Embraer ERJ-145ER,1995,50,1.76,commuter
+Saab 340,1983,32,1.1,commuter
+Saab 2000,1992,50,1.75,commuter
+Airbus A220 100,2013,115,2.8,regional
+Airbus A220 300,2015,140,3.1,regional
+Airbus A220-100,2013,125,2.57,regional
+Airbus A220-300,2015,160,2.85,regional
+Airbus A319neo,2015,144,3.37,regional
+Airbus A319neo,2015,154,2.82,regional
+Airbus A320neo,2015,154,2.79,regional
+Airbus A321neo,2015,192,3.3,regional
+Antonov An-148,2004,89,2.89,regional
+Anotonov An-158,2010,50,1.3,regional
+ATR 42-600,2010,50,1.3,regional
+ATR 72-600,2010,72,1.41,regional
+Boeing 737-300,1984,1.26,3.49,regional
+Boeing 737-600,1998,110,3.16,regional
+Boeing 737-700,1997,126,3.21,regional
+Boeing 737 MAX 7,2017,128,2.85,regional
+Boeing 737 MAX 7,2017,144,3.39,regional
+Boeing 737-800,1997,162,3.59,regional
+Boeing 737 MAX 8,2017,166,3.04,regional
+Boeing 737-900ER,2006,180,3.83,regional
+Boeing 737 MAX 9,2017,180,3.3,regional
+Boeing 757-200,1982,200,4.68,regional
+Boeing757-300,1998,243,5.19,regional
+Bombardier CRJ100,1991,50,1.87,regional
+Bombardier CRJ200,1995,50,1.8,regional
+Bombardier CRJ700,1999,70,2.45,regional
+Bombardier CRJ900,2001,88,2.78,regional
+Bombardier CRJ1000,2009,100,2.66,regional
+Bombardier Dash 8 Q400,1998,74,2.31,regional
+Bombardier Dash 8 Q400,1998,74,1.83,regional
+Dornier 328 ,1991,31,1.08,regional
+Embraer E-Jet E2-175,2020,88,2.44,regional
+Embraer E-Jet E2-190,2018,106,2.48,regional
+Embraer E-Jet E2-190,2018,106,2.83,regional
+Embraer E-Jet E2-195,2019,132,2.62,regional
+Embraer E-Jet E2-195,2019,132,3.07,regional
+Embraer E-Jet-170,2002,88,2.8,regional
+Embraer E-Jet-175,2005,88,3.07,regional
+Embraer E-Jet-190,2004,114,3.24,regional
+Embraer E-Jet-195,2004,122,3.21,regional
+Embraer ERJ-135ER,1998,37,1.44,regional
+Embraer ERJ-145ER,1996,50,1.55,regional
+Pilatus PC-12,1991,9,0.41,regional
+Saab 340,1983,31,0.95,regional
+Saab 2000,1992,50,1.54,regional
+Sukhoi SSJ100,2008,98,2.81,regional
+Airbus A220-100,2013,125,2.28,short-haul
+Airbus A220-300,2015,135,2.3,short-haul
+Airbus A220-300,2015,150,2.42,short-haul
+Airbus A220-300,2015,160,2.56,short-haul
+Airbus A319,1995,124,2.93,short-haul
+Airbus A319neo,2015,136,2.4,short-haul
+Airbus A320,1987,150,3.13,short-haul
+Airbus A320neo,2016,180,2.79,short-haul
+Airbus A321-200,1996,180,3.61,short-haul
+Airbus A321neo,2017,220,3.47,short-haul
+Airbus A330-200,1997,293,5.6,short-haul
+Antonov An-148,2004,89,2.75,short-haul
+Antonov An-158,2010,99,2.83,short-haul
+Boeing 737-600,1998,110,2.77,short-haul
+Boeing 737-700,1997,126,2.82,short-haul
+Boeing 737-700,1997,128,2.8,short-haul
+Boeing 737 MAX-7,2017,140,2.51,short-haul
+Boeing 737-800,1997,162,3.17,short-haul
+Boeing 737-800,1997,160,3.45,short-haul
+Boeing 737-900ER,2006,180,3.42,short-haul
+Boeing 737-900ERW,2006,190,3.42,short-haul
+Boeing 737 MAX-9,2017,180,2.91,short-haul
+Boeing 757-200,1982,190,4.6,short-haul
+Boeing 757-200,1982,200,4.16,short-haul
+Boeing 757-300,1998,243,4.68,short-haul
+Boeing 787-8,2009,248,5.5,short-haul
+Boeing 787-9,2013,296,5.67,short-haul
+Boeing 787-10,2017,336,6.09,short-haul
+Quest Kodiak,2004,9,0.71,short-haul
+Airbus A220-300,2015,150,2.42,medium-haul
+Airbus A320,1987,150,2.91,medium-haul
+Airbus A321LR,2016,154,2.99,medium-haul
+Airbus A330-200,1992,241,6,medium-haul
+Airbus A330-300,1992,262,6.25,medium-haul
+Airbus A330-900,2016,310,6,medium-haul
+Airbus A340-300,1992,262,8.81,medium-haul
+Airbus A380,2005,544,13.6,medium-haul
+Boeing 737 MAX-8,2017,168,2.86,medium-haul
+Boeing 737 MAX- 9,2017,144,2.91,medium-haul
+Boeing 747-400,1988,416,10.77,medium-haul
+Boeing 747-8,2011,467,9.9,medium-haul
+Boeing 757-200W,1981,158,3.79,medium-haul
+Boeing 767-200ER,1984,181,4.83,medium-haul
+Boeing 767-200ER,1984,224,4.93,medium-haul
+Boeing 767-300ER,1988,218,5.38,medium-haul
+Boeing 767-300ER,1988,218,5.39,medium-haul
+Boeing 767-300ER,1988,269,5.51,medium-haul
+Boeing 767-400ER,1999,245,5.78,medium-haul
+Boeing 767-400ER,1999,304,5.93,medium-haul
+Boeing 767-400ER,1999,304,5.92,medium-haul
+Boeing 777-200ER,1996,301,6.96,medium-haul
+Boeing 777-200,1994,305,6.83,medium-haul
+Boeing 777-300,1997,368,7.88,medium-haul
+Boeing 787-8,2009,291,5.26,medium-haul
+Boeing 787-8,2009,238,5.11,medium-haul
+Boeing 787-9,2013,304,5.77,medium-haul
+Irkut MC-21-300,2017,163,3.04,medium-haul
+Airbus A330-200,1997,241,6.4,long-haul
+Airbus A330-200,1997,248,6.55,
+Airbus A330-300,1992,274,6.81,
+Airbus A330-800,2017,248,5.45,
+Airbus A330-900,2017,300,5.94,
+Airbus A340-300,1992,262,7.32,
+Airbus A350-900,2013,315,6.03,
+Airbus A350-900,2013,318,6.52,
+Airbus A350-900,2013,315,7.07,
+Airbus A350-1000,2016,327,7.46,
+Airbus A350-1000,2016,367,7.58,
+Airbus A380,2005,525,13.78,
+Airbus A380,2005,544,13.78,
+Boeing 747-400,1988,416,11.11,
+Boeing 747-400,1988,393,11.82,
+Boeing 747-400,1988,487,12.31,
+Boeing 747-8,2011,467,10.54,
+Boeing 747-8,2011,405,10.9,
+Boeing 777-200ER,1996,304,7.57,
+Boeing 777-200ER,1996,301,7.42,
+Boeing 777-200ER,1996,301,7.44,
+Boeing 777-200LR,2005,291,7.57,
+Boeing 777-300ER,2003,382,8.86,
+Boeing 777-300ER,2003,365,8.49,
+Boeing 777-300ER,2003,344,8.58,
+Boeing 777-9X,2020,395,7.69,
+Boeing 787-8,2011,243,5.38,
+Boeing 787-8 GEnx,2011,220,5.3,
+Boeing 787-8 Trent,2011,220,5.51,
+Boeing 787-9 GEnx,2013,294,5.85,
+Boeing 787-9,2013,304,5.63,
+Boeing 787-9 GEnx,2013,266,5.62,
+Boeing 787-9,2013,291,7.18,
+Boeing 787-10 GEnx,2017,337,6.12,
+Boeing 787-10 Trent,2017,337,6.24,
