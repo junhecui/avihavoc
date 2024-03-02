@@ -1,36 +1,33 @@
+.landing {
+  width: 100vw;
+  height: calc(100vh - 100px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .landing-container {
-    position: absolute;
-
+  position: absolute;
 }
 
-.landing {
-    width: 100vw;
-    height: calc(100vh - 100px);
+.landing-bigheader {
+  color: black;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 86px;
+  font-weight: 700;
+  text-align: center;
 }
 
-.bigheader {
-    color: black;
+.landing-littlecaption {
+  color: gray;
 
-    font-size: 86px;
-    font-weight: 700;
-    text-align: center;
+  font-size: 30px;
+  font-weight: 600;
 }
 
-.littlecaption {
-    color: gray;
-
-    font-size: 30px;
-    font-weight: 600;
-}
-
-
-.globe {
-    position: relative;
-    z-index: -1;
-    top: 500px;
+.landing-globe {
+  position: relative;
+  z-index: -1;
+  top: 500px;
 }

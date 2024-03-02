@@ -12,16 +12,23 @@
   border-bottom: 1px solid var(--line);
 }
 
-.logo {
+.header-logo {
   font-size: 30px;
   font-weight: 700;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.logo > span {
+.header-logo > span {
   color: var(--red);
 }
 
-.navigator {
+.header-navigator {
   height: 60px;
 
   display: flex;

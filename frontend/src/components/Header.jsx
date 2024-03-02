@@ -1,15 +1,18 @@
 import '../styles/Header.css';
+import { useNavigate } from 'react-router-dom';
 import { ReactComponent as Globe } from '../assets/globe.svg';
 import { ReactComponent as Code } from '../assets/code.svg';
 import { Button } from './Button';
 
 export function Header() {
+  const navigate = useNavigate();
+
   return (
     <div className="header">
-      <p className="logo">
+      <p className="header-logo" onClick={() => navigate('/')}>
         <span>Flight</span>Track
       </p>
-      <div className="navigator">
+      <div className="header-navigator">
         {[
           {
             text: 'Flight Map',
