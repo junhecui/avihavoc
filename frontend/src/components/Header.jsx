@@ -14,13 +14,15 @@ export function Header() {
           {
             text: 'Flight Map',
             icon: <Globe />,
+            to: '/map',
           },
           {
             text: 'Credit',
             icon: <Code />,
+            to: '/credit',
           },
-        ].map(({ text, icon }) => (
-          <Button text={text} icon={icon} />
+        ].map(({ text, icon, to }) => (
+          <Button key={text} text={text} icon={icon} to={to} />
         ))}
       </div>
     </div>
