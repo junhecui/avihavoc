@@ -31,7 +31,18 @@ flights = fr_api.get_flights()  # Returns a list of Flight objects
 #     print("Latitude: ", latitude, " Longitude: ", longitude)
 
 
-# getting airlines
+# # getting airlines
+# for flight in flights:
+#     airline = flight.destination_airport_iata
+#     print(airline)
+
+# all
 for flight in flights:
-    airline = flight.destination_airport_iata
-    print(airline)
+    flight_details = fr_api.get_flight_details(flight)
+    flight.set_flight_details(flight_details)
+    latitude = flight.latitude
+    longitude = flight.longitude
+    airline = flight.airline_iata
+    airport = flight.destination_airport_iata
+    model = flight.aircraft_model
+    print("Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Model: ", model)
