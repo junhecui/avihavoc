@@ -31,7 +31,7 @@ export function Rank({ rank, name, id, emission }) {
     <div
       className="rank"
       style={{
-        backgroundColor: `${getColour(rank, 0)}25`,
+        backgroundColor: `${getColour(rank, 0)}`,
       }}
     >
       <pre

@@ -1,4 +1,4 @@
-.error {
+.about {
   width: 100vw;
   height: calc(100vh - 100px);
 
@@ -7,23 +7,32 @@
   justify-content: center;
 }
 
-.error-container {
+.about-container {
   position: absolute;
 }
 
-.error-bigheader {
-  color: red;
+.about-bigheader {
+  color: black;
 
   font-size: 86px;
   font-weight: 700;
   text-align: center;
-  margin: 0;
+  margin: 20px;
 }
 
-.error-littlecaption {
+.about-littlecaption {
   color: gray;
 
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
+  margin: 5px;
+}
+
+.about-littlecaption2 {
+  color: gray;
+
+  font-size: 15px;
+  font-weight: 300;
+  margin: 20px;
 }

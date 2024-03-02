@@ -20,9 +20,9 @@ export function Header() {
             to: '/map',
           },
           {
-            text: 'Credit',
+            text: 'About Us',
             icon: <Code />,
-            to: '/credit',
+            to: '/about',
           },
         ].map(({ text, icon, to }, index) => (
           <Button key={index} text={text} icon={icon} to={to} />

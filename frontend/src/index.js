@@ -5,6 +5,8 @@ import './index.css';
 import { Landing } from './pages/Landing';
 import { Header } from './components/Header';
 import { Map } from './pages/Map';
+import { About } from './pages/About';
+import { Error } from './pages/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,8 +16,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/map" element={<Map />} />
-        <Route path="/credit" element={<Landing />} />
-        <Route path="*" element={<p>ahh</p>} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   </React.StrictMode>
