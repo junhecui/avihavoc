@@ -1,0 +1,19 @@
+model,first flight,seats,fuel burn (kg/km)
+Antonov An-148,2004,89,4.23
+Antonov An-158,2010,99,4.34
+ATR 42-500,1995,48,1.26
+ATR 72-500,1997,72,1.67
+ATR 72-500,1997,70,1.42
+ATR 72-600,2010,72,1.56
+Beechcraft 1900D,1982,19,1
+Bombardier CRJ100,1991,50,2.21
+Bombardier CRJ200,1995,50,2.18
+Bombardier CRJ900,2001,88,3.47
+Bombardier Dash 8,1998,78,2.16
+Dornier 228,1981,19,0.94
+Dornier 328 ,1991,32,1.22
+Embraer Brasilia,1983,30,0.92
+Embraer ERJ-135ER,1998,37,1.64
+Embraer ERJ-145ER,1995,50,1.76
+Saab 340,1983,32,1.1
+Saab 2000,1992,50,1.75
