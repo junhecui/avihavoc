@@ -17,8 +17,21 @@ flights = fr_api.get_flights()  # Returns a list of Flight objects
 # distance = flight.get_distance_from(airport, details=True)
 # print(distance)
 
-for flight in flights:
-    flight_details = fr_api.get_flight_details(flight)
-    flight.set_flight_details(flight_details)
+# for flight in flights:
+#     flight_details = fr_api.get_flight_details(flight)
+#     flight.set_flight_details(flight_details)
 
-    print("Flying to", flight.destination_airport_name)
+#     print("Flying to", flight.destination_airport_name)
+
+
+# getting lat and long
+# for flight in flights:
+#     latitude = flight.latitude
+#     longitude = flight.longitude
+#     print("Latitude: ", latitude, " Longitude: ", longitude)
+
+
+# getting airlines
+for flight in flights:
+    airline = flight.destination_airport_iata
+    print(airline)
