@@ -38,7 +38,7 @@ flights = fr_api.get_flights()  # Returns a list of Flight objects
 #     print(airline)
 
 #carbon calc
-def carbon_calc(csv_file_path, substring):
+def carbon_calc(csv_file_path, substring, speed):
     with open(csv_file_path, 'r') as file:
         reader = csv.reader(file)
         
@@ -50,7 +50,7 @@ def carbon_calc(csv_file_path, substring):
             value = row[3]  # Assuming the 4th column contains the desired value
 
             if model_name in substring:
-                return value
+                return float(value) * (speed / 3600)
             
     return 0
 
@@ -63,6 +63,8 @@ for flight in flights:
     airline = flight.airline_iata
     airport = flight.destination_airport_iata
     model = flight.aircraft_model
-    carbon = carbon_calc('Flights-Full.csv', model)
-    if not (airline == "" or airport == "" or carbon == 0):
-        print("Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Carbon: ", carbon)
+    speed = flight.ground_speed
+    carbon_emissions = carbon_calc('Flights-Full.csv', model, speed)
+    # carbon_emissions is kg of carbon per second - should be incremented by variable every second and variable should be updated as much as rate allows - based on speed
+    if not (airline == "" or airport == "" or carbon_emissions == 0):
+        print("Flight Model: ", model, " Latitude: ", latitude, " Longitude: ", longitude, " Airline: ", airline, " Airport: ", airport, " Carbon: ", carbon_emissions)
