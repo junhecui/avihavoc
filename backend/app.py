@@ -1,5 +1,4 @@
 from flightradar24 import FlightRadar24API
-import pandas as pd
 import csv
 
 fr_api = FlightRadar24API()
