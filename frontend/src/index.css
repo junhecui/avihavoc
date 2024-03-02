@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Pretendard Variable', Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
     'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
@@ -12,30 +13,13 @@ body {
 
 :root {
   --red: #ff2e00;
+  --white: #fff;
+  --button-hover: #f0f2f5;
+  --line: #e9ebf0;
 }
 
 p {
   letter-spacing: -0.5px;
-}
-
-.header {
-  position: absolute;
-  width: 100vw;
-  height: 100px;
-
-  display: flex;
-  align-items: center;
-
-  padding: 0 100px;
-
-  background-color: gray;
-}
-
-.logo {
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.logo > span {
-  color: var(--red);
+  font-size: 18px;
+  font-weight: 500;
 }
