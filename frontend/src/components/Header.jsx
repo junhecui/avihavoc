@@ -24,8 +24,8 @@ export function Header() {
             icon: <Code />,
             to: '/credit',
           },
-        ].map(({ text, icon, to }) => (
-          <Button key={text} text={text} icon={icon} to={to} />
+        ].map(({ text, icon, to }, index) => (
+          <Button key={index} text={text} icon={icon} to={to} />
         ))}
       </div>
     </div>
