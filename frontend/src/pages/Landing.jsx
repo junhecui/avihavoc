@@ -1,3 +1,4 @@
+
 import '../styles/Landing.css'
 import Globe from 'react-globe.gl' ; 
 
@@ -25,5 +26,3 @@ export function Landing() {
       </div>
   </div>;
 }
-
-
