@@ -29,6 +29,10 @@
   margin: 5px;
 }
 
+.about-underline {
+  text-decoration: none;
+}
+
 .about-littlecaption2 {
   color: gray;
 
