@@ -3,27 +3,25 @@
   height: calc(100vh - 100px);
 
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .error-container {
   position: absolute;
+  top: 250px;
 }
 
 .error-bigheader {
-  color: red;
+  color: var(--red);
 
-  font-size: 86px;
+  font-size: 54px;
   font-weight: 700;
   text-align: center;
-  margin: 0;
+  margin-bottom: 15px;
 }
 
 .error-littlecaption {
-  color: gray;
-
-  font-size: 20px;
-  font-weight: 600;
+  color: var(--gray);
+  font-size: 22px;
   text-align: center;
 }

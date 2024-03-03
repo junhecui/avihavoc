@@ -23,3 +23,7 @@
   height: 22px;
   margin-right: 6px;
 }
+
+.button > p {
+  font-weight: 500;
+}

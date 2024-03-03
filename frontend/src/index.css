@@ -12,6 +12,10 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 :root {
@@ -26,6 +30,6 @@ p,
 pre {
   letter-spacing: -0.5px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
 }

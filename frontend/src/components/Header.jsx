@@ -10,7 +10,7 @@ export function Header() {
   return (
     <div className="header">
       <p className="header-logo" onClick={() => navigate('/')}>
-        <span>Flight</span>Track
+        <span>Avi</span>Havoc
       </p>
       <div className="header-navigator">
         {[
