@@ -6,8 +6,8 @@ export function Leaderboard() {
     <div className="leaderboard">
       <p className="leaderboard-heading">Leaderboard</p>
       <p className="leaderboard-description">
-        Lorem ipsum dolor sit amet,{'\n'}con secteturadipiscing elit, sed do
-        eiusmod{'\n'}tempor incididunt ut
+        The ranking of the Top 10 highest{'\n'}carbon dioxide emissions,
+        by airline. 
       </p>
       {[
         {
