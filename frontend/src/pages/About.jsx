@@ -11,11 +11,11 @@ export function About() {
         <p className="about-subtitle">Front-end</p>
         <p className="about-name">
           <a className="about-underline" href="https://github.com/ShafeiW">
-            ShafeiM
+            Shafei
           </a>
           ,{' '}
           <a className="about-underline" href="https://github.com/unsignd">
-            ejun
+            Yejun
           </a>
         </p>
         <p className="about-subtitle">Back-end</p>
