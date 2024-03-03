@@ -1,0 +1,120 @@
+model,first flight,seats,fuel burn (kg/km),type
+Antonov An-148,2004,89,4.23,commuter
+Antonov An-158,2010,99,4.34,commuter
+ATR 42-5,1995,48,1.26,commuter
+ATR 72-5,1997,72,1.55
+ATR 72-6,2010,72,1.56,commuter
+Beechcraft 19,1982,19,1,commuter
+Bombardier CRJ1,1991,50,2.21,commuter
+Bombardier CRJ2,1995,50,2.18,commuter
+Bombardier CRJ9,2001,88,3.47,commuter
+Bombardier Dash 8,1998,78,2.16,commuter
+Dornier 228,1981,19,0.94,commuter
+Dornier 328 ,1991,32,1.22,commuter
+Embraer Brasilia,1983,30,0.92,commuter
+Embraer ERJ-135,1998,37,1.64,commuter
+Embraer ERJ-145,1995,50,1.76,commuter
+Saab 34,1983,32,1.1,commuter
+Saab 2,1992,50,1.75,commuter
+Airbus A220-1,2013,120,2.8,regional
+Airbus A220-3,2015,150,3.1,regional
+Airbus A319neo,2015,144,3.37,regional
+Airbus A319neo,2015,154,2.82,regional
+Airbus A320neo,2015,154,2.79,regional
+Airbus A321neo,2015,192,3.3,regional
+Antonov An-148,2004,89,2.89,regional
+Anotonov An-158,2010,50,1.3,regional
+ATR 42-6,2010,50,1.3,regional
+ATR 72-6,2010,72,1.41,regional
+Boeing 737-3,1984,1.26,3.49,regional
+Boeing 737-6,1998,110,3.16,regional
+Boeing 737-7,1997,126,3.21,regional
+Boeing 737 MAX 7,2017,128,3.12
+Boeing 737-8,1997,162,3.59,regional
+Boeing 737 MAX 8,2017,166,3.04,regional
+Boeing 737-9,2006,180,3.83,regional
+Boeing 737 MAX 9,2017,180,3.3,regional
+Boeing 757-2,1982,200,4.68,regional
+Boeing 757-3,1998,243,5.19,regional
+Bombardier CRJ1,1991,50,1.87,regional
+Bombardier CRJ2,1995,50,1.8,regional
+Bombardier CRJ7,1999,70,2.45,regional
+Bombardier CRJ9,2001,88,2.78,regional
+Bombardier CRJ10,2009,100,2.66,regional
+Bombardier Dash 8 Q4,1998,74,2.07,
+Dornier 328,1991,31,1.08,regional
+Embraer E-Jet E2-175,2020,88,2.44,regional
+Embraer E-Jet E2-190,2018,106,2.48,regional
+Embraer E-Jet E2-190,2018,106,2.83,regional
+Embraer E-Jet E2-195,2019,132,2.62,regional
+Embraer E-Jet E2-195,2019,132,3.07,regional
+Embraer E-Jet-170,2002,88,2.8,regional
+Embraer E-Jet-175,2005,88,3.07,regional
+Embraer E-Jet-190,2004,114,3.24,regional
+Embraer E-Jet-195,2004,122,3.21,regional
+Embraer ERJ-135ER,1998,37,1.44,regional
+Embraer ERJ-145ER,1996,50,1.55,regional
+Pilatus PC-12,1991,9,0.41,regional
+Saab 340,1983,31,0.95,regional
+Saab 2,1992,50,1.54,regional
+Sukhoi SSJ1,2008,98,2.81,regional
+Airbus A220-1,2013,125,2.28,short-haul
+Airbus A220-3,2015,135,2.43,
+Airbus A319,1995,124,2.93,short-haul
+Airbus A319neo,2015,136,2.4,short-haul
+Airbus A320,1987,150,3.13,short-haul
+Airbus A320neo,2016,180,2.79,short-haul
+Airbus A321-2,1996,180,3.61,short-haul
+Airbus A321neo,2017,220,3.47,short-haul
+Airbus A330-2,1997,293,5.6,short-haul
+Antonov An-148,2004,89,2.75,short-haul
+Antonov An-158,2010,99,2.83,short-haul
+Boeing 737-6,1998,110,2.77,short-haul
+Boeing 737-7,1997,126,2.81,
+Boeing 737 MAX-7,2017,140,2.51,short-haul
+Boeing 737-8,1997,162,3.31,
+Boeing 737-9,2006,190,3.42,short-haul
+Boeing 737 MAX-9,2017,180,2.91,short-haul
+Boeing 757-2,1982,190,4.11,
+Boeing 757-3,1998,243,4.68,short-haul
+Boeing 787-8,2009,248,5.5,short-haul
+Boeing 787-9,2013,296,5.67,short-haul
+Boeing 787-10,2017,336,6.09,short-haul
+Quest Kodiak,2004,9,0.71,short-haul
+Airbus A220-3,2015,150,2.42,medium-haul
+Airbus A320,1987,150,2.91,medium-haul
+Airbus A321LR,2016,154,2.99,medium-haul
+Airbus A330-2,1992,241,6,medium-haul
+Airbus A330-3,1992,262,6.25,medium-haul
+Airbus A330-9,2016,310,6,medium-haul
+Airbus A340-3,1992,262,8.81,medium-haul
+Airbus A380,2005,544,13.6,medium-haul
+Boeing 737 MAX-8,2017,168,2.86,medium-haul
+Boeing 737 MAX-9,2017,144,2.91,medium-haul
+Boeing 747-4,1988,416,10.77,medium-haul
+Boeing 747-8,2011,467,9.9,medium-haul
+Boeing 757-2,1981,158,3.79,medium-haul
+Boeing 767-2,1984,181,4.88,
+Boeing 767-3,1988,218,5.43,
+Boeing 767-4,1999,245,5.89,
+Boeing 777-2,1996,301,6.90,medium-haul
+Boeing 777-3,1997,368,7.88,medium-haul
+Boeing 787-8,2009,291,5.19,medium-haul
+Boeing 787-9,2013,304,5.77,medium-haul
+Irkut MC-21-3,2017,163,3.04,medium-haul
+Airbus A330-2,1997,241,6.48,long-haul
+Airbus A330-3,1992,274,6.81,
+Airbus A330-8,2017,248,5.45,
+Airbus A330-9,2017,300,5.94,
+Airbus A340-3,1992,262,7.32,
+Airbus A350-9,2013,315,6.54,
+Airbus A350-1,2016,327,7.52,
+Airbus A380,2005,525,13.78,
+Boeing 747-4,1988,416,11.75,
+Boeing 747-8,2011,467,10.72,
+Boeing 777-2,1996,304,7.50,
+Boeing 777-3,2003,382,8.64,
+Boeing 777-9,2020,395,7.69,
+Boeing 787-8,2011,243,5.40,
+Boeing 787-9 GEnx,2013,294,6.07,
+Boeing 787-10,2017,337,6.18,
