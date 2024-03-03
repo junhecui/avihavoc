@@ -1,0 +1,19 @@
+.rank {
+  position: relative;
+  width: calc(100%);
+  height: 60px;
+  right: 30px;
+
+  padding: 0 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.rank > pre {
+  cursor: pointer;
+}
+
+.rank > pre:hover {
+  text-decoration: underline;
+}

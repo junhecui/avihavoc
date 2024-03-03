@@ -1,0 +1,58 @@
+.about {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 101px);
+
+  top: 100px;
+}
+
+.about-header {
+  width: calc(100vw - 400px);
+  height: 60px;
+
+  padding: 0 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--button-hover);
+}
+
+.about-body {
+  width: 100vw;
+  height: calc(100vh - 161px);
+}
+
+.about-title {
+  margin-top: 89px;
+  margin-bottom: 40px;
+
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-subtitle {
+  padding: 10px 0;
+
+  color: var(--gray);
+  text-align: center;
+}
+
+.about-name {
+  padding-bottom: 50px;
+
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.about-name > a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-name > a:hover {
+  text-decoration: underline;
+}
