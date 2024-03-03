@@ -10,21 +10,41 @@ export function About() {
         <p className="about-title">About Us</p>
         <p className="about-subtitle">Front-end</p>
         <p className="about-name">
-          <a className="about-underline" href="https://github.com/ShafeiW">
+          <a
+            className="about-underline"
+            href="https://github.com/ShafeiW"
+            target="_blank"
+            rel="noreferrer"
+          >
             Shafei
           </a>
           ,{' '}
-          <a className="about-underline" href="https://github.com/unsignd">
+          <a
+            className="about-underline"
+            href="https://github.com/unsignd"
+            target="_blank"
+            rel="noreferrer"
+          >
             Yejun
           </a>
         </p>
         <p className="about-subtitle">Back-end</p>
         <p className="about-name">
-          <a className="about-underline" href="https://github.com/lizard777">
+          <a
+            className="about-underline"
+            href="https://github.com/lizard777"
+            target="_blank"
+            rel="noreferrer"
+          >
             Liz
           </a>
           ,{' '}
-          <a className="about-underline" href="https://github.com/junhe-c">
+          <a
+            className="about-underline"
+            href="https://github.com/junhe-c"
+            target="_blank"
+            rel="noreferrer"
+          >
             Jun He
           </a>
         </p>
