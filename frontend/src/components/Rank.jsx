@@ -40,7 +40,7 @@ export function Rank({ rank, name, id, emission }) {
           color: getColour(rank),
         }}
       >
-        {rank}. {name} — {emission}kg/km
+        {rank}. {name} — {emission}kg
       </pre>
     </div>
   );

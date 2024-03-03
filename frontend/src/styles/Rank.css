@@ -9,11 +9,3 @@
   display: flex;
   align-items: center;
 }
-
-.rank > pre {
-  cursor: pointer;
-}
-
-.rank > pre:hover {
-  text-decoration: underline;
-}
