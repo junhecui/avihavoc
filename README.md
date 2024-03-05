@@ -1,4 +1,4 @@
-# ChaosHacks24
+# AviHavoc (ChaosHacks24)
 
 # Inspiration
 News of plane emissions has been everywhere recently, with countless celebrities flying their private jets out of the Super Bowl, producing more emissions in one day than the average person produces in years.
